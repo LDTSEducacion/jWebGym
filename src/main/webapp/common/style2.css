@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+.div-box-ht {
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 5px 8px;
+	margin-bottom: 10px;
+}
+
+.content-div-box{
+	display: flex;
+	justify-content: space-between;
+}

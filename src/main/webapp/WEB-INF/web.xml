@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>FinalGym</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoginAuthenticator</display-name>
+		<servlet-name>LoginAuthenticator</servlet-name>
+		<servlet-class>mipk.LoginAuthenticator</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>SignUpAuthenticator</display-name>
+		<servlet-name>SignUpAuthenticator</servlet-name>
+		<servlet-class>mipk.SignUpAuthenticator</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>EliminarPlanesEntrenamiento</display-name>
+		<servlet-name>EliminarPlanesEntrenamiento</servlet-name>
+		<servlet-class>mipk.EliminarPlanesEntrenamiento</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>CrearPlanEntrenamiento</display-name>
+		<servlet-name>CrearPlanEntrenamiento</servlet-name>
+		<servlet-class>mipk.CrearPlanEntrenamiento</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>AnyadirEjercicioPlan</display-name>
+		<servlet-name>AnyadirEjercicioPlan</servlet-name>
+		<servlet-class>mipk.AnyadirEjercicioPlan</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>ModificarPassword</display-name>
+		<servlet-name>ModificarPassword</servlet-name>
+		<servlet-class>mipk.ModificarPassword</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<servlet-name>LoginAuthenticator</servlet-name>
+		<url-pattern>/LoginAuthenticator</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SignUpAuthenticator</servlet-name>
+		<url-pattern>/SignUpAuthenticator</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>EliminarPlanesEntrenamiento</servlet-name>
+		<url-pattern>/EliminarPlanesEntrenamiento</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>CrearPlanEntrenamiento</servlet-name>
+		<url-pattern>/CrearPlanEntrenamiento</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AnyadirEjercicioPlan</servlet-name>
+		<url-pattern>/AnyadirEjercicioPlan</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ModificarPassword</servlet-name>
+		<url-pattern>/ModificarPassword</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

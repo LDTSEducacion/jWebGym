@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+.contenedor-botones{
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 90px;
+	text-align: center;
+}
+
+.contenedor-botones button{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.3em;
+	padding: 5px 8px;
+	width: 60%;
+}
+
+.formularioModificarPsswd{
+	border: 1px solid black;
+	margin: 10px auto;
+}
+
+.formularioModificarPsswd button{
+	margin: 10px auto;
+	width: 30%;
+}

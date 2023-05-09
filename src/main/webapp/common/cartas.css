@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+#cabecera {
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(42, 42, 255);
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#cabecera2 {
+	font-weight: bold;
+	background-color: rgb(42, 42, 255);
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#cabecera2 a {
+	border: 1px solid white;
+}
+
+#contenido {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#piePagina2 {
+	margin-top: 7px;
+	background-color: rgb(172, 172, 172);
+	height: 50px;
+}
+
+.cartas {
+	margin-bottom: 20px;
+}
+
+.hoja2 {
+	width: 20%;
+}
+
+.botonVolver {
+	color: black;
+	border: 1px solid black;
+	margin-top: 10px;
+}
+
+.imagenBoot {
+	width: 360px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.botonAcciones {
+	float: right;
+}
+
+.crearPlan {
+	width: 15%;
+}
+
+/* Crear nuevo plan de entrenamiento */
+.crearPlanForm{
+	margin-top: 20px;
+	text-align: left;
+	padding-left: 20%;
+}
+
+@media (max-width: 450px) {
+	.crearPlanForm {
+	    padding-left: 0;
+	}
+}
+
+.send {
+	border-radius: 5px;
+}
+
+/* Para que las cartas no se superpongan sobre las demas cosas */
+.card{
+	position: static;
+}
