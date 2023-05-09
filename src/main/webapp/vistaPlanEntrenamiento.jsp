@@ -22,7 +22,7 @@ try { //AQUI VA EL CONTROL DE SESION
 beanDB db = new beanDB();
 //Ahora vamos a obtener el plan de entrenamiento del usuario registrado
 String emailUsu = "";
-String idPlan = request.getParameter("idPlan");
+String idPlan = "'" + request.getParameter("idPlan").split("'")[1] + "'";
 try {
 	emailUsu = session.getAttribute("attributo2").toString();
 } catch (Exception e) {

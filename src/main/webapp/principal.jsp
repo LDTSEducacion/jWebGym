@@ -123,7 +123,7 @@ function compruebayenvia() {
 							%>
 							<%=descripcionMaxCaract%></p>
 						<!-- Enlace para ver el plan de entrenamiento -->
-						<a href="vistaPlanEntrenamiento.jsp?idPlan=<%=vPlanes[i][2] %>"
+						<a href="vistaPlanEntrenamiento.jsp?idPlan='<%= vPlanes[i][2] %>'"
 								class="btn btn-primary">Ver</a>
 					</div>
 				</div>
