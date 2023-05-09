@@ -81,7 +81,7 @@ public class AnyadirEjercicioPlan extends HttpServlet {
 			ok = true;
 		}
 
-		if (ok) response.sendRedirect("vistaPlanEntrenamiento.jsp?idPlan='"+idPlan+"'");
+		if (ok) response.sendRedirect("vistaPlanEntrenamiento.jsp?idPlan="+idPlan);
 		else response.sendRedirect("principal.jsp");
 	}
 
